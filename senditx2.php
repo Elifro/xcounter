@@ -2,7 +2,7 @@
 $recipient = "sales@xcounter.se";
 $subject = "Products";
 // where to go after it gets sent ...
-$redirect = "product/XC-Flite-X2.html";
+$redirect = "product/hydra-FX35.html";
 $email = "no-reply@xcounter.se";
 $product = "XC-Flite-X2";
 $from = $_POST['email'];
