@@ -1,0 +1,28 @@
+.hero-faq {
+
+  padding: 80px 0;
+  background-image: url('../assets/images/heros/faq-hero.jpg');
+  background-color: #333;
+  background-size: cover;
+
+}
+
+
+.faq{
+  padding: 75px 0;
+  background-color: #f8f8f8;
+
+  .contact-form {
+    margin-top: 0px!important;
+  }
+
+}
+
+
+@media (min-width: $screen-sm-min) {
+
+  .hero-company {
+    padding: 125px 0;
+  }
+
+}

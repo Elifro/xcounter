@@ -1,0 +1,61 @@
+
+@import "../assets/stylesheets/bootstrap";
+
+/*Basic animations*/
+@import "animations";
+
+/* GLOBAL SETTINGS */
+@import "global";
+
+/* HEADER STYLES */
+@import "header";
+
+/*
+/!* NEW HEADER *!/
+@import "new-header";*/
+
+/* CORPORATE PRESENTATION */
+@import "corporate-presentation";
+
+/* HERO START */
+@import "hero-start";
+
+/* HOME PANELS */
+@import "home-panels";
+
+/* NEWS ROLL */
+@import "news-roll";
+
+/* NEWSLETTER */
+@import "newsletter";
+
+/* CONTACT PAGE */
+@import "contact";
+
+/* PRODUCTS */
+@import "products";
+
+/* SINGLE PRODUCT */
+@import "single-product";
+
+/* COMPANY / ABOUT US */
+@import "company-description";
+
+/* Segments*/
+@import "segments";
+
+/* GALLERY */
+@import "gallery";
+
+/* NEWS */
+@import "news";
+
+/* FAQ */
+@import "faq";
+
+/* FOOTER STYLES */
+@import "footer";
+
+/* GATHER SEGMENTS */
+@import "gather-segments";
+

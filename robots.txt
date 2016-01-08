@@ -1,0 +1,7 @@
+User-Agent: *
+Disallow:
+Allow: /
+Allow: /company.html
+Allow: /products.html
+Allow: /contact.html
+Allow: /news.html

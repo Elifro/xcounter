@@ -1,0 +1,186 @@
+
+
+
+TRANSPARENT NAV
+
+<!--BOOTSTRAP MENU -->
+
+<header class="navbar navbar-transparent">
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">XC<span style="color: white;">ounter</span></a>
+        </div><!--/.navbar-header -->
+
+        <div class="navbar-collapse collapse">
+
+          <!--  <li class="phone"><abbr title="Phone">P:</abbr> (800) 997-9714</li>
+
+            <li><a class="btn btn-navbar-transparent" href="/plans-pricing">Contact Us</a></li>-->
+
+            <ul class="nav navbar-nav navbar-right">
+
+                <ul class="nav navbar-nav">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/company">Company</a></li>
+                    <li> <a href="/products">Products</a> </li>
+                    <li> <a href="/news">News</a> </li>
+                    <li> <a href="/faq">Faq</a> </li>
+                    <li> <a href="/gallery">Gallery</a> </li>
+
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Solutions <span class="caret"></span>
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="/client-success-stories">Food Processing</a>
+                            </li>
+
+                            <li>
+                                <a href="/expectations">Medical</a>
+                            </li>
+
+                            <li>
+                                <a href="/faqs">Welding</a>
+                            </li>
+
+
+
+                        </ul>
+                    </li>
+                </ul>
+
+
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div><!--/.container &ndash;&gt;-->
+</header>
+
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.navbar-transparent {
+  background-color: #2D3235;
+}
+
+.navbar-collapse {
+
+  .navbar-nav > li > a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 28px;
+    color: #C4C4C4;
+    font-weight: 600;
+    font-size: 23px;
+    padding-left: 40px;
+  }
+
+}
+
+@media (min-width: $screen-sm-min) {
+
+  .navbar-transparent {
+    background-color: transparent;
+    position: absolute;
+    color: #ffffff;
+    top: 0px;
+    right: 0;
+    left: 0;
+    z-index: 1001;
+    padding: 35px 0px;
+
+    .navbar-nav > li > a {
+      color: #ffffff;
+      text-transform: uppercase;
+      font-size: 13px;
+      padding-left: 20px;
+      font-weight: 400;
+
+      &:hover {
+        background-color: transparent;
+        color: #ffffff;
+        opacity: .65;
+      }
+
+    }
+
+    a.btn-navbar-transparent {
+      color: #ffffff;
+      margin-top: 6px;
+      padding-top: 8px;
+      padding-bottom: 6px;
+      background-color: rgba(255, 255, 255, 0.25);
+      border-color: #f3f5f5;
+      transition: 0.2s linear;
+
+      &:hover {
+        color: #ffffff;
+        opacity: 1;
+        background-color: rgba(255, 255, 255, 0.5);
+        border-color: #f3f5f5;
+      }
+
+      &:focus {
+        background-color: rgba(0, 0, 0, 0.2);
+      }
+
+      &:visited {
+        background-color: rgba(0, 0, 0, 0.2);
+      }
+
+    }
+
+    .dropdown-menu > li > a {
+      display: block;
+      padding: 7px 20px;
+      clear: both;
+      font-weight: normal;
+      line-height: 1.428571429;
+      color: #4f5962;
+      white-space: nowrap;
+    }
+
+    .navbar-right {
+      padding-top: 4px;
+    }
+
+  }
+
+  .navbar-transparent .navbar-nav > .open > a {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .navbar-brand {
+    font-family: "Times New Roman";
+    font-size: 2em;
+  }
+
+  .nav .phone {
+    font-size: 14px;
+    padding: 13px 20px 13px 5px;
+  }
+
+  .navbar-collapse {
+    overflow-x: visible;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-top: 1px solid transparent;
+    background-color: transparent;
+    box-shadow: 0;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .navbar {
+    border: 0px solid transparent;
+  }
+}
+
+

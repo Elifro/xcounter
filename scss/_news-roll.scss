@@ -1,0 +1,15 @@
+.news-article {
+  .btn {
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: $screen-sm-min) {
+
+  .news-article {
+    .btn {
+      margin-bottom: 0px;
+    }
+  }
+
+}

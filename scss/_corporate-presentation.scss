@@ -1,0 +1,47 @@
+.corporate-presentation-high {
+   padding: 140px 0 0 0;
+   background: white;
+
+   a {
+     text-decoration: none;
+     font-weight: 600;
+     color: #353535;
+     text-transform: uppercase;
+
+     &:hover {
+       color: #414141;
+       text-decoration: none;
+     }
+
+   }
+
+   h1 {
+     font-weight: 200;
+     margin-bottom: .7em !important;
+   }
+
+ }
+
+.corporate-presentation {
+  padding: 75px 0 120px 0;
+  background: white;
+
+  a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #353535;
+    text-transform: uppercase;
+
+    &:hover {
+      color: #414141;
+      text-decoration: none;
+    }
+
+  }
+
+  h1 {
+    font-weight: 200;
+    margin-bottom: .7em !important;
+  }
+
+}

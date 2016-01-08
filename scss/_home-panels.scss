@@ -1,0 +1,28 @@
+.home-panels-hero {
+  padding: 47px 0;
+
+  a {
+    color: #333;
+  }
+
+}
+
+.home-panels {
+  padding: 75px 0 47px 0;
+  background-color: #F8F8F8;
+  border-top: 1px solid #ddd;
+
+  a {
+    color: #333;
+  }
+
+  .panel-default{
+
+    &:hover {
+      cursor: pointer;
+      text-decoration: underline;
+    }
+
+  }
+
+}

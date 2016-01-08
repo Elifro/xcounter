@@ -1,0 +1,79 @@
+
+/*Text styles */
+
+p {
+  margin-bottom: 1.9em;
+  line-height: 1.9;
+  font-size: 15px;
+  //color: #868f9a
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 12px #000000;
+}
+
+.thinner {
+  font-weight: 200;
+  margin-bottom: 1.2em!important;
+}
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none!important;
+  }
+}
+
+.redwords {
+
+  &:hover {
+    color: #DC4838!important;
+  }
+
+}
+
+
+/* HERO SETTINGS  */
+
+.hero {
+  color: white;
+
+  h1 {
+    font-size: 60px;
+    color: white;
+    padding-top: 10px;
+  }
+
+  h3 {
+    color: #f5f5f5;
+    font-weight: 100;
+    margin-bottom: 25px;
+    line-height: 1.4em;
+    display: none;
+  }
+
+}
+
+@media (min-width: $screen-sm-min) {
+
+  .hero {
+    h1 {
+      color: white;
+      padding-top: 40px;
+      font-size: 4em;
+      font-weight: 200;
+    }
+
+    h3 {
+      color: #f5f5f5;
+      font-weight: 100;
+      font-size: 28px;
+      margin-bottom: 25px;
+      display: block;
+    }
+  }
+
+
+
+}

@@ -1,0 +1,70 @@
+footer {
+
+
+  background-color: #2E3336;
+  padding: 75px 0;
+
+  h4 {
+    color: white;
+    font-weight: 200;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+
+    li {
+      color: white;
+      padding-left: 2em;
+      text-indent: -2em;
+    }
+
+  }
+
+  a {
+    color: white;
+    line-height: 1.6em!important;
+    font-weight: 200;
+  }
+
+  p {
+    color: white;
+    line-height: 1.9em;
+    font-weight: 200;
+  }
+
+  .divider {
+    margin: 0px 0px 14px;
+    background-color: #b3bdc2;
+    opacity: .4;
+    width: 50px;
+    height: 1px;
+  }
+
+  .twoem {
+    margin-top: 2em;
+  }
+
+  .footer-links {
+    @include make-sm-column(4);
+    @include make-lg-column(3);
+  }
+
+
+}
+
+
+@media (min-width: $screen-md-min) {
+
+  .twoem {
+    margin-top: 0!important;
+  }
+
+  h4 {
+    margin-top: 0!important;
+  }
+
+
+
+
+}

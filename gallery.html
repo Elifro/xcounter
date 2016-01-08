@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>xCounter</title>
+
+    <!-- Bootstrap -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- GALLERY -->
+    <script type='text/javascript' src='plugins/unitegallery/js/jquery-11.0.min.js'></script>
+
+    <script type='text/javascript' src='plugins/unitegallery/js/ug-common-libraries.js'></script>
+    <script type='text/javascript' src='plugins/unitegallery/js/ug-functions.js'></script>
+    <script type='text/javascript' src='plugins/unitegallery/js/ug-thumbsgeneral.js'></script>
+    <script type='text/javascript' src='plugins/unitegallery/js/ug-thumbsstrip.js'></script>
+    <script type='text/javascript' src='plugins/unitegallery/js/ug-touchthumbs.js'></script>
+    <script type='text/javascript' src='plugins/unitegallery/js/ug-panelsbase.js'></script>
+    <script type='text/javascript' src='plugins/unitegallery/js/ug-strippanel.js'></script>
+    <script type='text/javascript' src='plugins/unitegallery/js/ug-gridpanel.js'></script>
+    <script type='text/javascript' src='plugins/unitegallery/js/ug-thumbsgrid.js'></script>
+    <script type='text/javascript' src='plugins/unitegallery/js/ug-tiles.js'></script>
+    <script type='text/javascript' src='plugins/unitegallery/js/ug-tiledesign.js'></script>
+    <script type='text/javascript' src='plugins/unitegallery/js/ug-avia.js'></script>
+    <script type='text/javascript' src='plugins/unitegallery/js/ug-slider.js'></script>
+    <script type='text/javascript' src='plugins/unitegallery/js/ug-sliderassets.js'></script>
+    <script type='text/javascript' src='plugins/unitegallery/js/ug-touchslider.js'></script>
+    <script type='text/javascript' src='plugins/unitegallery/js/ug-zoomslider.js'></script>
+    <script type='text/javascript' src='plugins/unitegallery/js/ug-video.js'></script>
+    <script type='text/javascript' src='plugins/unitegallery/js/ug-gallery.js'></script>
+    <script type='text/javascript' src='plugins/unitegallery/js/ug-lightbox.js'></script>
+    <script type='text/javascript' src='plugins/unitegallery/js/ug-carousel.js'></script>
+    <script type='text/javascript' src='plugins/unitegallery/js/ug-api.js'></script>
+
+    <link rel='stylesheet' href='plugins/unitegallery/css/unite-gallery.css' type='text/css' />
+
+    <script type='text/javascript' src='plugins/unitegallery/themes/default/ug-theme-default.js'></script>
+    <link rel='stylesheet' 		  href='plugins/unitegallery/themes/default/ug-theme-default.css' type='text/css' />
+
+</head>
+<body>
+
+
+<nav class="navbar navbar-fixed-top navbar-inverse">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" rel="home" href="/" title="XCounter-logo"><img src="assets/images/xcounter-logo.png" style="margin-top: -7px;"> </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/">Home</a></li>
+                <li><a href="/company.html">Company</a></li>
+                <li><a href="/segments.html">Solutions</a></li>
+                <li><a href="/products.html">Products</a></li>
+                <li><a href="/news.html">News</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+                <li><a href="/faq.html">Faq</a></li>
+                <li class="active"><a href="/gallery.html">Gallery</a></li>
+
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+<section class="hero-gallery">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-8 hero">
+                <h1 class="text-shadow">Image gallery</h1>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="gallery">
+
+    <div id="gallery" style="display:none;" class="container">
+
+        <img alt="Preview Image 1"
+             src="plugins/unitegallery/images/thumbs/thumbnail.jpg"
+             data-image="plugins/unitegallery/images/big/x-ray.jpg"
+             data-description="Preview Image 1 Description">
+
+        <img alt="Preview Image 3"
+             src="plugins/unitegallery/images/thumbs/thumbnail-2.jpg"
+             data-image="plugins/unitegallery/images/big/x-ray-2.jpg"
+             data-description="Preview Image 3 Description">
+
+
+        <img alt="Preview Image 4"
+             src="plugins/unitegallery/images/thumbs/thumbnail-3.jpg"
+             data-image="plugins/unitegallery/images/big/x-ray-3.jpg"
+             data-description="Preview Image 4 Description">
+
+
+        <img alt="Preview Image 5"
+             src="plugins/unitegallery/images/thumbs/thumbnail-4.jpg"
+             data-image="plugins/unitegallery/images/big/x-ray-4.jpg"
+             data-description="Preview Image 5 Description">
+
+
+        <img alt="Preview Image 7"
+             src="plugins/unitegallery/images/thumbs/thumbnail-6.jpg"
+             data-image="plugins/unitegallery/images/big/x-ray-6.jpg"
+             data-description="Preview Image 7 Description">
+
+
+        <img alt="Preview Image 9"
+             src="plugins/unitegallery/images/thumbs/thumbnail-8.jpg"
+             data-image="plugins/unitegallery/images/big/x-ray-8.jpg"
+             data-description="Preview Image 9 Description">
+
+        <img alt="Preview Image 10"
+             src="plugins/unitegallery/images/thumbs/thumbnail-9.jpg"
+             data-image="plugins/unitegallery/images/big/x-ray-9.jpg"
+             data-description="Preview Image 10 Description">
+
+        <img alt="Preview Image 12"
+             src="plugins/unitegallery/images/thumbs/thumbnail-10.jpg"
+             data-image="plugins/unitegallery/images/big/x-ray-10.jpg"
+             data-description="Preview Image 11 Description">
+
+
+        <img alt="Preview Image 14"
+             src="plugins/unitegallery/images/thumbs/thumbnail-12.jpg"
+             data-image="plugins/unitegallery/images/big/x-ray-12.jpg"
+             data-description="Preview Image 11 Description">
+
+        <img alt="Preview Image 11"
+             src="plugins/unitegallery/images/thumbs/thumbnail-13.jpg"
+             data-image="plugins/unitegallery/images/big/x-ray-13.jpg"
+             data-description="Preview Image 11 Description">
+
+        <img alt="Preview Image 11"
+             src="plugins/unitegallery/images/thumbs/thumbnail-14.jpg"
+             data-image="plugins/unitegallery/images/big/x-ray-14.jpg"
+             data-description="Preview Image 11 Description">
+
+        <img alt="Preview Image 11"
+             src="plugins/unitegallery/images/thumbs/thumbnail-15.jpg"
+             data-image="plugins/unitegallery/images/big/x-ray-15.jpg"
+             data-description="Preview Image 11 Description">
+
+        <img alt="Preview Image 11"
+             src="plugins/unitegallery/images/thumbs/thumbnail-16.jpg"
+             data-image="plugins/unitegallery/images/big/x-ray-16.jpg"
+             data-description="Preview Image 11 Description">
+
+        <img alt="Preview Image 11"
+             src="plugins/unitegallery/images/thumbs/thumbnail-17.jpg"
+             data-image="plugins/unitegallery/images/big/x-ray-17.jpg"
+             data-description="Preview Image 11 Description">
+
+        <img alt="Preview Image 11"
+             src="plugins/unitegallery/images/thumbs/thumbnail-18.jpg"
+             data-image="plugins/unitegallery/images/big/x-ray-18.jpg"
+             data-description="Preview Image 11 Description">
+
+        <img alt="Preview Image 11"
+             src="plugins/unitegallery/images/thumbs/thumbnail-19.jpg"
+             data-image="plugins/unitegallery/images/big/x-ray-19.jpg"
+             data-description="Preview Image 11 Description">
+    </div>
+
+    <script type="text/javascript">
+
+        jQuery(document).ready(function(){
+
+            jQuery("#gallery").unitegallery();
+
+        });
+
+    </script>
+
+
+</section>
+
+
+
+
+<footer>
+
+    <div class="container">
+
+        <div class="footer-links">
+            <h4>XCounter Group</h4>
+            <div class="divider"></div>
+            <ul>
+                <li><a href="http://xcountergroup.com/board.html" target="_blank">Board</a></li>
+                <li><a href="http://xcountergroup.com/investor-info.html" target="_blank">Investor Info</a></li>
+                <li><a href="http://xcountergroup.com/contact.html" target="_blank">Contact</a></li>
+            </ul>
+            <br>
+            <h4>AJAT</h4>
+            <div class="divider"></div>
+            <ul>
+                <li><a href="http://www.ajat.fi/company/" target="_blank">Company</a></li>
+                <li><a href="http://www.ajat.fi/services/" target="_blank">Service</a></li>
+                <li><a href="http://www.ajat.fi/contact/" target="_blank">Contact</a></li>
+            </ul>
+
+        </div>
+
+        <div class="footer-links">
+            <h4 class="twoem">XCounter</h4>
+            <div class="divider"></div>
+            <ul>
+                <li><a href="http://xcounter.com/company.html" target="_blank">Company</a></li>
+                <li><a href="http://xcounter.com/products.html" target="_blank">Products</a></li>
+                <li><a href="http://xcounter.com/news.html" target="_blank">News</a></li>
+                <li><a href="http://xcounter.com/contact.html" target="_blank">Contact</a></li>
+            </ul>
+
+            <br>
+
+            <h4>Accredidations</h4>
+            <div class="divider"></div>
+            <ul>
+                <li><a href="http://xcounter.com/assets/doc/Certificate%2013485%20en.pdf" target="_blank">ISO 13485:2012</a></li>
+                <li><a href="http://xcounter.com/assets/doc/Certificate%209001%20en.pdf" target="_blank">ISO 9001:2008</a></li>
+            </ul>
+
+        </div>
+
+        <div class="footer-links">
+            <h4 class="twoem">Get in touch</h4>
+            <div class="divider"></div>
+            <ul>
+                <li><b>Technical Support</b></li>
+                <li><a href="mailto:info@xcounter.com">info@xcounter.com</a></li>
+
+                <br>
+
+                <li><b>Sales</b></li>
+                <li><a href="mailto:sales@xcounter.com">sales@xcounter.com</a></li>
+                <li>P:(+44) 7833 426 281</li>
+            </ul>
+        </div>
+
+        <div class="footer-links">
+            <p class="twoem">Designing, developing and producing the world's best detectors.</p>
+            <br>
+            <a href="https://www.linkedin.com/company/xcounter-ab" target="_blank"><i class="fa fa-linkedin-square"></i> Follow on linkedin</a>
+        </div>
+
+    </div>
+
+</footer>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+
+<script>
+    $(window).scroll(function() {
+        if ($(document).scrollTop() > 50) {
+            $('nav').addClass('shrink');
+        } else {
+            $('nav').removeClass('shrink');
+        }
+    });
+</script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="assets/javascripts/bootstrap.min.js"></script>
+</body>
+</html>

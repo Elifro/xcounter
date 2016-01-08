@@ -1,0 +1,20 @@
+.hero-index {
+
+  padding: 80px 0;
+  //background-image: url('../assets/images/company-hero.png');
+  background-color: #8D99AF;
+  background-size: cover;
+
+}
+
+
+@media (min-width: $screen-sm-min) {
+
+  .hero-index {
+    //background-image: url('../assets/images/company-hero.png');
+    background-color: #8D99AF;
+    padding: 100px 0;
+  }
+
+}
+

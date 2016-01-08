@@ -1,0 +1,30 @@
+.single-product {
+  padding: 125px 0;
+  background-color: #F8F8F8;
+}
+
+.product-info {
+  @include make-row();
+}
+
+.sell-info {
+  @include make-lg-column(6);
+
+  img {
+    margin-bottom: 40px;
+  }
+
+  h1 {
+    color: #DC4838;
+    text-transform: uppercase;
+    font-weight: 200;
+    border-bottom: 1px dashed #e2e2e2;
+    padding-bottom: 15px;
+  }
+
+}
+
+.technical-info {
+  @include make-lg-column(6);
+
+}

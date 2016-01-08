@@ -1,0 +1,27 @@
+.newsletter {
+  background-color: #373F52;
+  padding: 75px 0px;
+  border-bottom: 1px solid #1B1B1E;
+
+  color: #c4c4c4;
+
+  .newsletter-signup {
+    @include make-row();
+
+    .newsletter-text{
+      @include make-lg-column(6);
+      @include make-lg-column-offset(3);
+
+      h2 {
+        color: #eee;
+        /*font-weight: 100;*/
+      }
+
+    }
+
+
+  }
+
+
+
+}
