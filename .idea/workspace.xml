@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da65f81b-9ec0-4f7d-854a-eb72e5e00873" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/products/XC-Flite-X3.html" afterPath="$PROJECT_DIR$/products/hydra-FX20.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/hydra-FX50.html" afterPath="$PROJECT_DIR$/products/hydra-FX50.html" />
-    </list>
+    <list default="true" id="da65f81b-9ec0-4f7d-854a-eb72e5e00873" name="Default" comment="" />
     <ignored path="xcounter.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -50,8 +46,8 @@
         <option value="$PROJECT_DIR$/products/XC-Flite-FX2.html" />
         <option value="$PROJECT_DIR$/products/XC-Flite-FX3.html" />
         <option value="$PROJECT_DIR$/products/XC-Flite-FX1.html" />
-        <option value="$PROJECT_DIR$/products/hydra-FX20.html" />
         <option value="$PROJECT_DIR$/products/hydra-FX50.html" />
+        <option value="$PROJECT_DIR$/products/hydra-FX20.html" />
       </list>
     </option>
   </component>
