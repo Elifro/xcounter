@@ -6357,8 +6357,11 @@ nav.shrink .navbar-toggle {
 .news {
   padding: 100px 0 75px 0;
   background-color: #f8f8f8; }
-  .news p {
-    margin-bottom: 0 !important; }
+  .news .news_link, .news p {
+    margin-bottom: 0 !important;
+    cursor: pointer; }
+    .news .news_link:hover, .news p:hover {
+      text-decoration: underline; }
 
 .latest-news {
   position: fixed;
