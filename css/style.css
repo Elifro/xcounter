@@ -6006,21 +6006,20 @@ nav.shrink .navbar-toggle {
   border-top: 1px solid #ddd; }
   .home-panels a {
     color: #333; }
-
-.panel-default {
-  transition: all 0.2s ease-in-out; }
-  .panel-default:hover {
-    cursor: pointer;
-    text-decoration: none;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1); }
-  .panel-default:after {
-    text-decoration: none; }
-  .panel-default:focus {
-    text-decoration: none; }
-  .panel-default:visited {
-    text-decoration: none; }
-  .panel-default:active {
-    text-decoration: none; }
+  .home-panels .panel-default {
+    transition: all 0.2s ease-in-out; }
+    .home-panels .panel-default:hover {
+      cursor: pointer;
+      text-decoration: none;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1); }
+    .home-panels .panel-default:after {
+      text-decoration: none; }
+    .home-panels .panel-default:focus {
+      text-decoration: none; }
+    .home-panels .panel-default:visited {
+      text-decoration: none; }
+    .home-panels .panel-default:active {
+      text-decoration: none; }
 
 @media (min-width: 992px) {
   .home-panels .panel-body {
@@ -6104,6 +6103,20 @@ nav.shrink .navbar-toggle {
   background-color: #f8f8f8;
   padding-bottom: 75px;
   padding-top: 75px; }
+  .products-panels .panel-default {
+    transition: all 0.2s ease-in-out; }
+    .products-panels .panel-default:hover {
+      cursor: pointer;
+      text-decoration: none;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1); }
+    .products-panels .panel-default:after {
+      text-decoration: none; }
+    .products-panels .panel-default:focus {
+      text-decoration: none; }
+    .products-panels .panel-default:visited {
+      text-decoration: none; }
+    .products-panels .panel-default:active {
+      text-decoration: none; }
   @media (min-width: 480px) {
     .products-panels .panel-body {
       height: 230px; } }
@@ -6116,12 +6129,6 @@ nav.shrink .navbar-toggle {
   @media (min-width: 1200px) {
     .products-panels .panel-body {
       height: 310px; } }
-  .products-panels h3:hover {
-    cursor: pointer;
-    text-decoration: none; }
-  .products-panels p:hover {
-    cursor: pointer;
-    text-decoration: none; }
 
 .products-top-image {
   height: 200px;
