@@ -2,8 +2,13 @@
   padding: 100px 0 75px 0;
   background-color: #f8f8f8;
 
-  p{
+  .news_link, p{
     margin-bottom: 0!important;
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 
