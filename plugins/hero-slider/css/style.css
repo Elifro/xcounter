@@ -650,11 +650,11 @@ Slider navigation
   }
   .cd-slider-nav .cd-marker,
   .cd-slider-nav li {
-    width: 130px;
+    width: 160px;
   }
   .cd-slider-nav a {
     padding-top: 40px;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     text-transform: uppercase;
   }
   .cd-slider-nav a::before {

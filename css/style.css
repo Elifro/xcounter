@@ -6006,10 +6006,25 @@ nav.shrink .navbar-toggle {
   border-top: 1px solid #ddd; }
   .home-panels a {
     color: #333; }
-  .home-panels .panel-default:hover {
-    cursor: pointer;
-    text-decoration: underline; }
 
+.panel-default {
+  transition: all 0.2s ease-in-out; }
+  .panel-default:hover {
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1); }
+  .panel-default:after {
+    text-decoration: none; }
+  .panel-default:focus {
+    text-decoration: none; }
+  .panel-default:visited {
+    text-decoration: none; }
+  .panel-default:active {
+    text-decoration: none; }
+
+@media (min-width: 992px) {
+  .home-panels .panel-body {
+    height: 340px; } }
 /* NEWS ROLL */
 .news-article .btn {
   margin-bottom: 40px; }
@@ -6103,10 +6118,10 @@ nav.shrink .navbar-toggle {
       height: 310px; } }
   .products-panels h3:hover {
     cursor: pointer;
-    text-decoration: underline; }
+    text-decoration: none; }
   .products-panels p:hover {
     cursor: pointer;
-    text-decoration: underline; }
+    text-decoration: none; }
 
 .products-top-image {
   height: 200px;
