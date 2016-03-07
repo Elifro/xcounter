@@ -60,6 +60,18 @@
     <div class="container">
 
         <div class="row">
+            <div class='col-xs-12 col-sm-6 col-lg-7'>
+                <div class="panel panel-default">
+                    <img src="assets/images/news/Fotografi.jpg" class="img-responsive center-block news8">
+                    <div class="panel-body">
+                        <h3>XCounter at ECR2016</h3>
+                        <h6><i class="fa fa-clock-o"></i> March 2016</h6>
+                        <p>
+                            In another successful show, XCounter had a booth at the annual congress of the European Society of Radiology (ECR2016) in Vienna. Continuing to lead the way in bringing Photon Counting technology to the market, XCounter received significant interest from all aspects of the Medical imaging industry. The low dose capability of its detectors was particularly well received, with both radiologists and medical systems manufacturers impressed by the quality of the images generated at up to 60% lower dose than standard detectors.
+                        </p>
+                    </div>
+                </div>
+            </div>
 
             <div class='col-xs-12 col-sm-6 col-lg-7'>
                 <div class="panel panel-default">
@@ -88,6 +100,7 @@
             </div>
             <div class="col-lg-5 latest-news">
                 <h4>Latest news</h4>
+                    <p class="news_link nav_buttons_news8">XCounter at ECR2016</p>
                     <p class="news_link nav_buttons_news7">XCounter have appointed Lind as distributor for China</p>
                     <p class="news_link nav_buttons_news1">Come visit us at RSNA</p>
                     <p class="news_link nav_buttons_news2">XCounter at JCHSIP2015 Japan</p>
@@ -306,6 +319,13 @@
 
             $('html, body').animate({
                 scrollTop: $(".news7").offset().top
+            }, 2000);
+
+        });
+        $(".nav_buttons_news8").click(function () {
+
+            $('html, body').animate({
+                scrollTop: $(".news8").offset().top
             }, 2000);
 
         });
