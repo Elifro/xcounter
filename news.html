@@ -71,6 +71,38 @@
         <div class="row">
             <div class='col-xs-12 col-sm-6 col-lg-7'>
                 <div class="panel panel-default">
+                    <video width="640" height="480" controls class="news10">
+                        <source src="assets/images/news/xcounter.mp4" type="video/mp4">
+                        <source src="assets/images/news/xcounter.ogg" type="video/ogg">
+                        <source src="assets/images/news/xcounter.webm" type="video/webm">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="panel-body">
+                        <h3>CT imaging of Hand Phantom</h3>
+                        <h6><i class="fa fa-clock-o"></i> May 2016</h6>
+                        <p>
+                            With the increasing requirement by medical professionals for low dose orthopaedic imaging systems, tests with the XCounter Hydra detector has provided proof of its capability to find subtle extremity fractures with CT imaging. Such fractures would have commonly been missed by 2D radiographic systems.
+                            The XCounter photon counting detector brings a new level of resolution and speed to CT imaging applications. In particular, the market leading MTF and DQE set new standards in low dose imaging with up to 70% less dose required for the same image when compared with other products available.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class='col-xs-12 col-sm-6 col-lg-7'>
+                <div class="panel panel-default">
+                    <img src="assets/images/news/news-april.jpg" class="img-responsive center-block news9" style="height: 600px;">
+                    <div class="panel-body">
+                        <h3>XCounter and Lind at CMEF in Shanghai</h3>
+                        <h6><i class="fa fa-clock-o"></i> April 2016</h6>
+                        <p>
+                            XCounter and its distribution partner for China, Dalian Lind had a stand at the 2016 CMEF exhibition in Shanghai. Significant interest was shown in the ability of XCounter photon counting detectors to generate high quality images at ultra-fast speeds and significantly low radiation exposures. During the show itself XCounter signed up to perform demonstrations for several potential customers covering a range of applications including bone densitometry and full body scanning. Yet another successful exhibition for the XCounter team and its partners.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class='col-xs-12 col-sm-6 col-lg-7'>
+                <div class="panel panel-default">
                     <img src="assets/images/news/Fotografi.jpg" class="img-responsive center-block news8">
                     <div class="panel-body">
                         <h3>XCounter at ECR2016</h3>
@@ -109,6 +141,8 @@
             </div>
             <div class="col-lg-5 latest-news">
                 <h4>Latest news</h4>
+                    <p class="news_link nav_buttons_news10">CT imaging of Hand Phantom</p>
+                    <p class="news_link nav_buttons_news9">XCounter and Lind at CMEF in Shanghai</p>
                     <p class="news_link nav_buttons_news8">XCounter at ECR2016</p>
                     <p class="news_link nav_buttons_news7">XCounter have appointed Lind as distributor for China</p>
                     <p class="news_link nav_buttons_news1">Come visit us at RSNA</p>
@@ -338,6 +372,21 @@
             }, 2000);
 
         });
+        $(".nav_buttons_news9").click(function () {
+
+            $('html, body').animate({
+                scrollTop: $(".news9").offset().top
+            }, 2000);
+
+        });
+        $(".nav_buttons_news10").click(function () {
+
+            $('html, body').animate({
+                scrollTop: $(".news10").offset().top
+            }, 2000);
+
+        });
+
     });
 </script>
 
